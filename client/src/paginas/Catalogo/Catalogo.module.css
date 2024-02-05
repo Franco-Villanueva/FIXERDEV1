@@ -1,0 +1,22 @@
+.divMain{
+    display: flex;
+    margin: 50px 0px 150px 0px;
+    min-width: 390px;
+    word-wrap: break-word;
+}
+
+
+/* .divOne, .divTwo, .divThree {
+    flex: 1 0 30%; /* El 30% es el ancho máximo de cada div 
+    margin: 0px 10px;
+    height: 50px;
+    box-sizing: border-box;  Asegura que el margen no aumente el ancho *
+  } */
+
+
+  @media screen and (max-width: 1042px) {
+    .divMain {
+        flex-wrap: wrap;
+        margin: 10px 0px 30px 0px;
+    }
+  }

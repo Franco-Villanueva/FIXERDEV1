@@ -1,0 +1,22 @@
+.titulo {
+  line-height: 50px;
+  text-align: center;
+  margin-left: 30px;
+  color: #3cbbed;
+  margin-bottom: 70px;
+}
+
+.carrusel{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  .carrusel{
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+}
